@@ -31,5 +31,5 @@
 ***
 
 &nbsp;&nbsp;&nbsp;&nbsp;Ознакомиться с рабочим проектом на облачной платформе PythonAnywhere можно&nbsp;
-[здесь](https://kramarenko.pythonanywhere.com/)
+[здесь](https://kramarenko.pythonanywhere.com/) .
 
