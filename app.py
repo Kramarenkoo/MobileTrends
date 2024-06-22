@@ -20,7 +20,7 @@ SIDEBAR_STYLE = {
 
 # Справа от боковой панели размешается основной дашборд. Добавим отступы
 CONTENT_STYLE = {
-    "margin-left": "17rem",
+    "margin-left": "20rem",
     "margin-right": "1rem",
     "padding": "2rem 1rem",
     #"background-color": "#EBECF1"

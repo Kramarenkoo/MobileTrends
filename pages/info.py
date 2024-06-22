@@ -14,11 +14,7 @@ expensive = expensive.rename(columns={'Smartphone': 'Модель телефон
 expensive = expensive.sort_values(by='Цена', ascending=False).head(8)
 
 avg_price_per_brand = df.groupby('Brand')['Final Price'].mean().reset_index()
-#fig3 = px.bar(avg_price_per_brand, x='Brand', y='Final Price', labels={'Brand': 'Бренд', 'Final Price': 'Средняя цена по бренду, USD'}, color_discrete_sequence=['#76B1A2'])
-# Сначала сортируем данные
 sorted_brands = avg_price_per_brand.sort_values('Final Price', ascending=False)
-
-# Теперь создаем диаграмму, передав отсортированный список брендов
 fig3 = px.bar(sorted_brands, x='Brand', y='Final Price', 
               labels={'Brand': 'Бренд', 'Final Price': 'Средняя цена по бренду, USD'},
               category_orders={'Brand': sorted_brands['Brand'].tolist()},
