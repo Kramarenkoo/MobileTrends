@@ -31,6 +31,4 @@
 ***
 
 &nbsp;&nbsp;&nbsp;&nbsp;Ознакомиться с рабочим проектом на облачной платформе PythonAnywhere можно&nbsp;
-[здесь](https://kramarenko.pythonanywhere.com/).
-
-<a href="https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-s-primerami/#stk-18" target="_blank">example</a>
+<a href="https://kramarenko.pythonanywhere.com/" target="_blank">здесь</a>.
